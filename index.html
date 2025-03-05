@@ -81,6 +81,19 @@
         .footer p {
             font-size: 1.2em;
         }
+
+        .embed-container {
+            margin: 20px auto;
+            width: 80%;
+        }
+
+        iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+            border-radius: 10px;
+        }
+
     </style>
 </head>
 <body>
@@ -105,23 +118,25 @@
 
     <section class="instagram">
         <h2>Instagram Posts 📸</h2>
-        <div>
-            <img src="https://www.instagram.com/p/C_OSdmzs_Co/?img_index=1" alt="Instagram Post 1" width="300" />
-            <img src="https://www.instagram.com/p/C-k6FJzsQT8/?img_index=1" alt="Instagram Post 2" width="300" />
+        <div class="embed-container">
+            <!-- Instagram Embed -->
+            <iframe src="https://www.instagram.com/p/C_OSdmzs_Co/embed" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
         </div>
-        <h3>Check out Terez’s latest on Instagram:</h3>
-        <p>Beautiful moments shared by Terez with the world 💖</p>
+        <div class="embed-container">
+            <!-- Instagram Embed -->
+            <iframe src="https://www.instagram.com/p/C-k6FJzsQT8/embed" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+        </div>
     </section>
 
     <section class="tiktok">
         <h2>TikTok Videos 🎥</h2>
-        <div>
-            <a href="https://www.tiktok.com/@terezvebrova/video/7463864417210338582" target="_blank">
-                <img src="https://www.tiktok.com/@terezvebrova/video/7463864417210338582" alt="TikTok Video 1" width="300" />
-            </a>
-            <a href="https://www.tiktok.com/@terezvebrova/video/7466156166666603798" target="_blank">
-                <img src="https://www.tiktok.com/@terezvebrova/video/7466156166666603798" alt="TikTok Video 2" width="300" />
-            </a>
+        <div class="embed-container">
+            <!-- TikTok Embed -->
+            <iframe src="https://www.tiktok.com/embed/7463864417210338582" frameborder="0"></iframe>
+        </div>
+        <div class="embed-container">
+            <!-- TikTok Embed -->
+            <iframe src="https://www.tiktok.com/embed/7466156166666603798" frameborder="0"></iframe>
         </div>
         <p>Discover the fun and creative world of Terez through her TikTok videos 🎉</p>
     </section>
@@ -142,4 +157,6 @@
 
 </body>
 </html>
+
+
 
